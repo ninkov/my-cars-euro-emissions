@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="rsponsive.css">
+    <script src="app.js" type="module"></script>
+
     <title>My-Car-Euro-Emissions</title>
   </head>
   <body>
@@ -14,15 +17,17 @@
           class="input"
           type="search"
           id="search"
-          placeholder="Enter position: V9"
+          placeholder="Position: V9"
         />
-        <p class="searching-result">
-          <span>
-            <ul class="result"></ul>
-          </span>
-        </p>
+        <button id="btn">clear</button>
       </article>
+      <footer class="site-footer">
+      <p class="searching-result">
+        
+        <ul id="results"></ul>
+        
+      </p>
+      </footer>
     </main>
   </body>
 </html>
-<!-- 715/2007/692/2008A -->
